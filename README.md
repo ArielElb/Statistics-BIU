@@ -1,9 +1,9 @@
-## Statistics-BarPlot
+# Statistics-BarPlot
 
 #Objective
-The objective of this mission is to create a bar plot for tomato prices in two different years, using data from the file "Tomato.csv". The width of each bar should correspond to 10% of the total observations, and the height of each bar should show the relative prevalence measured in the dataset.
+T#he objective of this mission is to create a bar plot for tomato prices in two different years, using data from the file "Tomato.csv". The width of each bar should correspond to 10% of the total observations, and the height of each bar should show the relative prevalence measured in the dataset.
 
-#Prerequisites
+##Prerequisites
 To complete this mission, you will need:
 
 Python 3 installed on your computer
