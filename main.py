@@ -27,6 +27,7 @@ do it using the following steps:
 
 def build_plot(year):
     data2 = data[data['Date'].str.contains(year)]
+
     fixed_data = np.array_split(np.array(sorted(data2['Average'])), 10)
     price_ranges = [(i[0], i[-1]) for i in fixed_data]
     bar_edges = []
@@ -59,10 +60,20 @@ def build_plot(year):
     # print the widest price range
     print(f"Widest price range in {year}: {max(bar_widths)}")
 
-    # print the largest range of prices
+    # calculate the avarage of all the average prices
+    average = 0
+    for i in range(len(data2['Average'])):
+        average += data2['Average'].iloc[i]
+    average /= len(data2['Average'])
+
+    return average
 
 
-build_plot('2014')
-build_plot('2020')
+max_average_prices_2014 = build_plot('2014')
+max_average_prices_2015 = build_plot('2020')
 
+if max_average_prices_2014 > max_average_prices_2015:
+    print("The average price of tomatoes was higher in 2014 than in 2020")
+else:
+    print("The average price of tomatoes was higher in 2020 than in 2014")
 plt.show()
