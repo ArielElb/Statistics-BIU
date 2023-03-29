@@ -22,6 +22,7 @@ Dataset
 - Maximum average price in 2020: 107.5
 - Narrowest price range in 2020: 2.5
 - Widest price range in 2020: 40.0
+- The average price of tomatoes was higher in 2020 than in 2014
 
 ![image](https://user-images.githubusercontent.com/94087682/228620604-8b47d093-7d9f-4974-90e8-3232fad7568d.png)
 ![image](https://user-images.githubusercontent.com/94087682/228620635-2d2eddf4-631d-4ffd-91e9-9111c97b7f27.png)
