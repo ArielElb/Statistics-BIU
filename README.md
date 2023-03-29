@@ -13,5 +13,7 @@ Dataset
 The dataset used for this mission is the "Tomato.csv" file, which contains data on tomato prices in different years. The attributes in the dataset include the date, minimum price, maximum price, and average price of tomatoes.
 
 ![image](https://user-images.githubusercontent.com/94087682/228620604-8b47d093-7d9f-4974-90e8-3232fad7568d.png)
+![image](https://user-images.githubusercontent.com/94087682/228620635-2d2eddf4-631d-4ffd-91e9-9111c97b7f27.png)
+
 
 
