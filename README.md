@@ -25,7 +25,8 @@ Dataset
 - The average price of tomatoes was higher in 2020 than in 2014
 
 ![image](https://user-images.githubusercontent.com/94087682/228620604-8b47d093-7d9f-4974-90e8-3232fad7568d.png)
-![image](https://user-images.githubusercontent.com/94087682/229091426-4862cb47-08f3-4965-bed8-8167780efeb6.png)
+![image](https://user-images.githubusercontent.com/94087682/229091617-810ee3ca-ceb9-40d5-8efa-5a264b198f48.png)
+
 
 
 
